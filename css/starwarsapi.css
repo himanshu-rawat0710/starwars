@@ -1,0 +1,97 @@
+body{
+  /* background-color: yellow; */
+}
+
+body{
+  /* background-color: #1F293A; */
+  background:url("../images/astrology-astronomy-background-image-956981.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  background-attachment:fixed;
+}
+
+#main-body{
+  text-align: center;
+  min-width: 300px;
+}
+
+/* Set the animation & hide the logo */
+.logo {
+    /* position: absolute; */
+    top: 20%;
+    left: 45%;
+    z-index: 1;
+    margin: auto;
+    /* animation: logo 2s ease-out 4s; */
+    opacity: 1;
+}
+
+.logo svg {
+    width: inherit;
+}
+
+
+
+/* Scale the logo down and maintain it centered */
+/* @keyframes logo {
+    0% {
+        width: 18em;
+        transform: scale(2.75);
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+        width: 18em;
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.1);
+        width: 18em;
+    }
+} */
+
+
+#title{
+  /* font-family: 'Macondo Swash Caps', cursive; */
+  /* font-family: 'Monoton', cursive; */
+  font-family: 'Special Elite', cursive;
+  /* font-family: 'Star Jedi', arial; */
+  /* text-align: center; */
+  font-size: 8rem;
+  color: #FFBB55;
+  margin-top: 100px;
+}
+
+.btn{
+  text-align: center;
+  /* margin-left: 43%; */
+  font-family: 'Special Elite', cursive;
+  font-size:4rem;
+  color: #8F1527;
+  padding-top: 16px;
+  /* font-family: 'Macondo Swash Caps', cursive; */
+}
+
+.content{
+  color:yellow;
+  height: 400px;
+  width: 50%;
+  /* font-size: 4rem; */
+  font-family: 'Macondo Swash Caps', cursive;
+  margin-top: 25px;
+
+}
+
+.star-name{
+  font-size: 6rem;
+  color: #c7fc02;
+  font-weight: bolder;
+}
+
+p{
+  font-size: 2rem;
+}
+
+.result{
+  margin-top: 25px;
+}
